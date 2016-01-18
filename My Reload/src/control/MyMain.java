@@ -94,7 +94,7 @@ public class MyMain extends Application {
 
 			// Create the dialog Stage.
 			Stage dialogStage = new Stage();
-			dialogStage.setTitle("Traducteur Fran�ais");
+			dialogStage.setTitle("Traducteur Francais");
 			dialogStage.initModality(Modality.WINDOW_MODAL);
 			//dialogStage.initOwner(primaryStage);
 			dialogStage.setResizable(false);
