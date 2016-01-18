@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.MyController">
+   <children>
+      <BorderPane prefHeight="400.0" prefWidth="800.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <top>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="74.0" prefWidth="100.0" style="-fx-background-color: pink;">
+               <children>
+                  <ImageView fitHeight="62.0" fitWidth="57.0" layoutX="14.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@img/logo.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView id="Cambiar Lenguaje" cache="true" fitHeight="43.0" fitWidth="42.0" layoutX="634.0" layoutY="35.0" onMouseClicked="#handleSend" pickOnBounds="true" preserveRatio="true" smooth="false" styleClass="button-viewProfile" AnchorPane.bottomAnchor="5.7433624267578125" AnchorPane.rightAnchor="27.0">
+                     <image>
+                        <Image url="file:/C:/Users/ShirleyGirbelis/Desktop/Desarrollo%20Interfaces/My%20Reload/src/view/img/language.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+                  <Label contentDisplay="TOP" layoutX="80.0" layoutY="12.0" prefHeight="49.0" prefWidth="165.0" styleClass="window-title" text="My Profile" textAlignment="CENTER" textFill="#ff0481ed" wrapText="true">
+                     <font>
+                        <Font name="System Bold" size="33.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </top>
+         <bottom>
+            <AnchorPane prefHeight="33.0" prefWidth="700.0" style="-fx-background-color: pink;" BorderPane.alignment="CENTER" />
+         </bottom>
+         <center>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0" snapToPixel="false" style="-fx-background-color: white;" BorderPane.alignment="CENTER">
+               <children>
+                  <Label layoutX="525.0" layoutY="205.0" prefHeight="31.0" prefWidth="161.0" styleClass="name-label" text="Gatita Presumida" AnchorPane.bottomAnchor="57.0" AnchorPane.rightAnchor="14.0">
+                     <font>
+                        <Font size="21.0" />
+                     </font></Label>
+                  <Label layoutX="555.0" layoutY="236.0" prefHeight="31.0" prefWidth="102.0" styleClass="description-label" text="Diseñamos" AnchorPane.bottomAnchor="26.0" AnchorPane.rightAnchor="43.0">
+                     <font>
+                        <Font name="System Italic" size="21.0" />
+                     </font>
+                  </Label>
+                  <ImageView fx:id="imagenPerfil" fitHeight="190.0" fitWidth="185.0" layoutX="26.0" layoutY="61.0" nodeOrientation="INHERIT" pickOnBounds="true" AnchorPane.bottomAnchor="42.0" AnchorPane.leftAnchor="26.0" AnchorPane.topAnchor="61.0">
+                     <image>
+                        <Image url="file:/C:/Users/ShirleyGirbelis/Desktop/Desarrollo%20Interfaces/My%20Reload/src/view/img/marie.jpg" />
+                     </image>
+                     <viewport>
+                        <Rectangle2D />
+                     </viewport>
+                  </ImageView>
+                  <Label layoutX="26.0" layoutY="14.0" prefHeight="36.0" prefWidth="157.0" text="Gatita Marie" textAlignment="CENTER" wrapText="true" AnchorPane.leftAnchor="26.0" AnchorPane.topAnchor="14.0">
+                     <font>
+                        <Font name="System Bold Italic" size="25.0" />
+                     </font>
+                  </Label>
+                  <TextArea editable="false" layoutX="211.0" layoutY="26.0" prefHeight="220.0" prefWidth="300.0" text="Acerca de Marie:&#10;&#10;Marie es un personaje &#10;de la película The Aristocats.&#10;&#10;Ella es la hija de Duquesa y &#10;hermana de Toulouse y Berlioz. &#10;Ella y su familia viven en la mansión &#10;de Adelaida Bonfamille.&#10;&#10;" AnchorPane.bottomAnchor="47.0" AnchorPane.leftAnchor="211.0" AnchorPane.rightAnchor="189.0">
+                     <font>
+                        <Font name="Book Antiqua Italic" size="18.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="TEXT" />
+                     </cursor>
+                  </TextArea>
+               </children>
+               <rotationAxis>
+                  <Point3D />
+               </rotationAxis>
+            </AnchorPane>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>
